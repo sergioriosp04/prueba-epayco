@@ -7,7 +7,7 @@ import epayco from '../img/img2.svg'
 
 const Footer= () =>{
     return(
-        <div className="footer">
+        <div className="footer text-center">
             <p className="text"> ePayco &#169; 2011-2019 todos los derechos reservados.</p>
             <div>
                 <img className="dav" src={davivienda} alt="davivienda"/>

@@ -9,7 +9,7 @@ import cliente from '../img/client.svg'
 const Sidebar= () =>{
     return(
         <div className="sidebar">
-            <img className="mx-auto" src={epayco} alt=""/>
+            <img className="image-epa" src={epayco} alt=""/>
             <p className="name">ALEXANDER CEBA...</p>
             <div className="option">
                 <img className="ico" src={house} alt=""/>

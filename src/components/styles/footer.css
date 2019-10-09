@@ -6,7 +6,8 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    flex-wrap: wrap;
     
 }
 
@@ -27,4 +28,10 @@
     margin-left: 15px;
     margin-right: 20px;
     vertical-align: middle;
+}
+
+@media screen and (max-width:645px){
+    .footer{
+        justify-content: center;
+    }
 }

@@ -8,10 +8,10 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="row">
-      <div className="col-3">
+      <div className="col-md-3 sidebar">
         <Sidebar />
       </div>
-      <div className="col-9">
+      <div className="col-md-9 content">
         <Header />
         <InfoForm />
         <Footer />

@@ -1,0 +1,16 @@
+label:after {
+    content:"*";
+    color:red;
+  }
+
+.btn-primary{
+    background: #40A8E6;
+    border-color: #40A8E6;
+    width: 130.86px;
+}
+.btn-outline-primary{
+    border-color: #40A8E6;
+    color: #40A8E6;
+    width: 130.86px;
+    margin-left: 40.14px;
+}

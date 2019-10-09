@@ -1,0 +1,10 @@
+.card{
+    margin-left: 25px;
+    margin-top: 22px;
+}
+.card-header{
+    background: white !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}

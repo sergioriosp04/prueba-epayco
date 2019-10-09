@@ -2,17 +2,21 @@ import React, { Fragment } from 'react';
 //components
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
-import Form from './components/Form'
+import InfoForm from './components/InfoForm'
 import Footer from './components/Footer'
 
 function App() {
   return (
-    <Fragment>
-      <Sidebar />
-      <Header />
-      <Form />
-      <Footer />
-    </Fragment>
+    <div className="row">
+      <div className="col-3">
+        <Sidebar />
+      </div>
+      <div className="col-9">
+        <Header />
+        <InfoForm />
+        <Footer />
+      </div>
+    </div>    
   );
 }
 

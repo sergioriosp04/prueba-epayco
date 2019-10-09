@@ -1,6 +1,7 @@
 .card{
     margin-left: 25px;
     margin-top: 22px;
+    width: 70%;
 }
 .card-header{
     background: white !important;

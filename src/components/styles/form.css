@@ -14,3 +14,19 @@ label:after {
     width: 130.86px;
     margin-left: 40.14px;
 }
+.butt{
+    position: absolute;
+    bottom: -80px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+@media screen and (max-width:767px){
+    .butt{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+
+    }
+}

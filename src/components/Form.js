@@ -51,6 +51,13 @@ const Form = () =>{
         setDocumento('')
 
     }
+    //boton cancelar
+    const handleCancelar = () =>{
+        setNombre('')
+        setApellido('')
+        setPais('')
+        setDocumento('')
+    }
 
     return(
         <Fragment>
@@ -116,8 +123,10 @@ const Form = () =>{
                         </div>
                     </div>
                 </div>
-                <button className="btn btn-primary">enviar</button>
-                <button type="reset" className="btn btn-outline-primary">cancelar</button>
+                <div className="butt">
+                    <button className="btn btn-primary">enviar</button>
+                    <button  type="reset" className="btn btn-outline-primary" onClick={handleCancelar}>cancelar</button>
+                </div>
             </form>
         </Fragment>
     )

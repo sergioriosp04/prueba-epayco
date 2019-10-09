@@ -3,7 +3,10 @@
     background: white;
     width: 100%
 }
-@media screen and (max-width:766px){
+
+
+/* donde colapsa el sidebar */
+@media screen and (max-width:767px){
     .header{
         display: none;
     }

@@ -14,7 +14,6 @@ const Sidebar= () =>{
             <div className="option">
                 <img className="ico" src={house} alt=""/>
                 <span className="text-icon"> Dashboard </span>
-
             </div>
             <div>
                 <img  className="ico" src={cliente} alt=""/>

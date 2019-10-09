@@ -2,6 +2,8 @@
     margin-left: 25px;
     margin-top: 22px;
     width: 70%;
+    margin-bottom: 108px;
+    position: relative;
 }
 .card-header{
     background: white !important;
@@ -10,8 +12,18 @@
     line-height: 21px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
     .card{
         width: 90%
+    }
+}
+
+/* donde colapsa el sidebar */
+@media screen and (max-width:767px){
+    .card{
+
+        margin: 20px auto 0 auto;
+        margin-bottom: 108px;
+        position: relative;    
     }
 }

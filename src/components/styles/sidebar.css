@@ -4,6 +4,8 @@
 .image-epa{
     width: 100px;
     object-fit: cover;
+    display: block;
+    margin: auto
 }
 .name{
     background: #222222;
@@ -28,12 +30,13 @@
     color: #FFFFFF;
 }
 
+
+/* donde colapsa el sidebar */
 @media screen and (max-width:766px){
     .sidebar{
         display: flex;
         flex-direction: column;
         align-items: center;
-
         justify-content: center;
     }
 }
